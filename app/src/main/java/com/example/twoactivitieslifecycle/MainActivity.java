@@ -1,6 +1,5 @@
-package com.example.twoactivities_part2;
+package com.example.twoactivitieslifecycle;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -13,7 +12,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     private EditText mMessageEditText;
-    public static final String EXTRA_MESSAGE = "com.example.android.twoactivities_part2.extra.MESSAGE";
+    public static final String EXTRA_MESSAGE = "com.example.android.twoactivitieslifecycle.extra.MESSAGE";
     private static final String LOG_TAG = MainActivity.class.getSimpleName();
     public static final int TEXT_REQUEST = 1;
     private TextView mReplyHeadTextView;

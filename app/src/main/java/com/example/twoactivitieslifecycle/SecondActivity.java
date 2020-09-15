@@ -1,4 +1,4 @@
-package com.example.twoactivities_part2;
+package com.example.twoactivitieslifecycle;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
@@ -11,7 +11,7 @@ import android.widget.TextView;
 public class SecondActivity extends AppCompatActivity {
 
     private static final String LOG_TAG = SecondActivity.class.getSimpleName();
-    public static final String EXTRA_REPLY = "com.example.android.twoactivities_part2.extra.REPLY";
+    public static final String EXTRA_REPLY = "com.example.android.twoactivitieslifecycle.extra.REPLY";
     private EditText mReply;
 
     @Override

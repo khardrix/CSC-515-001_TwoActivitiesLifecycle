@@ -14,7 +14,8 @@
             android:parentActivityName="com.example.twoactivitieslifecycle.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.android.twoactivitieslifecycle.MainActivity" />
+                android:value="com.example.twoactivitieslifecycle.MainActivity"
+                />
         </activity>
         <activity android:name="com.example.twoactivitieslifecycle.MainActivity">
             <intent-filter>

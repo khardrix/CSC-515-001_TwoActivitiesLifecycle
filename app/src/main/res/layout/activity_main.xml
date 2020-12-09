@@ -57,7 +57,7 @@
         android:ems="10"
         android:hint="@string/editText_main"
         android:inputType="textLongMessage"
-        android:text="(Delete any text in this field)"
+        android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
